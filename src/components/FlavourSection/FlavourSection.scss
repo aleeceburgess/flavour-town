@@ -1,0 +1,31 @@
+.flavour-section {
+  scroll-snap-align: center;
+  flex: 0 0 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .flavour-section__name {
+    flex: 0 0 100%;
+    font-size: clamp(2.5rem, 0.6406rem + 8.7500vw, 6rem);
+    text-align: center;
+  }
+
+  .flavour-section__image-wrapper {
+    position: relative;
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+  }
+  
+  .flavour-section__can {
+    width: 250px;
+  }
+
+  .flavour-section__info {
+    flex: 0 0 50%;
+  }
+}
+

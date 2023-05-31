@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@600&family=Source+Sans+Pro&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro", system-ui, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+}
+
+nav {
+  background-color: aliceblue;
+  padding: 1rem 2rem;
+}
+
+.flavour-wrapper {
+  scroll-snap-type: x mandatory;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: scroll;
+  display: flex;
+  transition: background 0.8s ease-in-out;
+  position: relative; /* for can image */
+}
